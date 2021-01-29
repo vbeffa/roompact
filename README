@@ -1,0 +1,7 @@
+API description: https://tech-docs.roompact.com/resident-import-api/v/2.0
+
+This assumes Go 1.15.7 with go modules is installed. You should be able to run the program from this directory with
+
+`go run cmd/roompact/roompact.go`
+
+It uses the gofakeit library to generate random data, and submits 10 POST requests to https://roompact.com/api/users.
